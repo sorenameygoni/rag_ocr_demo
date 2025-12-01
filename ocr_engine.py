@@ -1,6 +1,6 @@
 import easyocr
 import numpy as np
-def loade_ocr_model(languges=['en','fa'],wieghts_path=None):
+def load_ocr_model(languges=['en','fa'],wieghts_path=None):
     reader = easyocr.Reader(languges)
     print("easy OCR Model loaded")
     return reader
